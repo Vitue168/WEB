@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 100;
+    box-sizing: border-box;
+ 
+}
+.html {
+    scroll-behavior: smooth;
+  }
+.container{
+    width: 100%;
+    height:450h;
+    
+    
+    
+   
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+
+
+
+}
+.navbar .logo{
+    width: 25%;
+}
+.navbar .logo  a{
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(38, 0, 255);
+}
+.navbar .responsive-nav{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 0;
+}
+.navbar .responsive-nav .nav-center{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+.navbar .responsive-nav .nav-center li a{
+    display: block;
+    text-decoration: none;
+    padding: 30px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s linear;
+}
+.navbar .responsive-nav .nav-center li:hover a{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.navbar .responsive-nav .nav-right .search-box{
+    display: flex;
+    border: 1px solid rgb(8, 0, 0);
+    width: 400px;
+}
+.navbar .responsive-nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+.navbar .responsive-nav .nav-right .user {
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.navbar .responsive-nav .nav-right .search-box input {
+   
+    width: 80%;
+    border: none;
+    outline: none ;
+    padding: 10px 15px;
+    
+}
+.navbar .responsive-nav .nav-right .search-box i {
+    width: 20%;
+    padding: 15px 10px;
+    border-left: 1px solid rgb(8, 0, 0);
+    text-align: center;
+    background-color: rgb(11, 12, 12);
+    color: rgb(252, 252, 252);
+    cursor:pointer;
+      
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.img-content{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.Text-content{
+    flex-basis:40%;
+    max-width:1000px; 
+}
+.Text-content h1{
+    font-size: 60px;
+    background-color: blue;
+    text-shadow:30px 10px 30px rgb(255, 0, 0);
+}
+.Text-content p {
+    font-size: 40px;
+}
+.Text-content h1 span {
+    background-color: red;
+}
+.image-content img{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 700px;
+    height:700px;
+    margin-left:50px;
+   border-radius: 1000px;
+   border-style:inset;
+   border-width: 30px;
+   border-color: rgb(255, 0, 0);
+}
+.Text-content a{
+    font-size: 40px;
+}
+
+
+    
